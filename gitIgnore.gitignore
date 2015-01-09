@@ -1,0 +1,13 @@
+.metadata/
+core/
+logs/
+maven_web/
+mgmt/
+mgmt2/
+mobile/
+public/
+public2/
+RemoteSystemsTempFiles/
+Servers/
+webMgmt/
+webmgmt2/target/
