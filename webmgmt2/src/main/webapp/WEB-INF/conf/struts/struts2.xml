@@ -7,8 +7,7 @@
 	<include file="struts-default.xml" />
 	<!-- <include file="sysAdmin_struts.xml" /> -->
 	<package name="sysadmin" namespace="/" extends="struts-default">
-        <action name="user" class="com.mgmt.action.sysAdmin.SysUserAction" method="login">
-            <result>/views/sysAdmin/login.jsp</result>
+        <action name="login" class="com.mgmt.action.sysAdmin.SysUserAction" method="login">
         </action>
     </package>
 </struts>

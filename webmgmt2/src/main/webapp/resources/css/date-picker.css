@@ -1,0 +1,27 @@
+/*!
+ * CSS - Calendar
+ * Version - 1.0.0
+ * Modify By Wang Ping
+ * Date: 08-01-2013 09:52:48 (GMT Time)
+ */
+#jCalendar .ar_up,#jCalendar .ar_up_in,#jCalendar .ar_down,#jCalendar .ar_down_in{position:absolute; top:-16px; left:30px; overflow:hidden; width:0; height:0; font-size:0; border-width:8px; border-style:dashed dashed solid dashed; border-color:transparent transparent #adadad transparent; z-index:5}
+#jCalendar .ar_up_in{top:-15px; border-color:transparent transparent #e7ecef transparent}
+#jCalendar .ar_down,#jCalendar .ar_down_in{top:auto; bottom:-15px; border-style:solid dashed dashed dashed; border-color:#bac6cd transparent transparent transparent}
+#jCalendar .ar_down_in{top:auto; bottom:-14px; border-color:#fff transparent transparent transparent}
+
+.ui-calendar{ background:#fff; border:1px solid #d0d5d9; color:#484f57; overflow:hidden; zoom:1; position:relative; z-index:3; font: 12px/1.5 Tahoma; -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);box-shadow: 0 1px 2px rgba(0,0,0,.2); border-radius:3px}
+.ui-calendar .head{ height:34px; line-height:34px; position:relative; text-align:center; font-size:14px; background:#e7ecef; border-bottom:1px solid #d0d5d9}
+.ui-calendar .button{ width:7px; height:10px; font-size:0; text-indent:-9999em; float:left; overflow:hidden; position:absolute; top:12px; background:url(../img/ui-date.png) 0 -40px no-repeat}
+.ui-calendar .prev{ left:5%; background-position:-9px -40px}
+.ui-calendar .next{ right:5%; background-position:0 -40px}
+.ui-calendar li{ width:38px; height:36px; line-height:36px; float:left; display:inline; border:1px solid #d0d5d9; margin:-1px 0 0 -1px; overflow:hidden; text-align:center; cursor:pointer}
+.ui-calendar .week-entry{ height:26px; line-height:26px; overflow:hidden}
+.ui-calendar .week-entry li{ cursor:default; height:26px; line-height:26px; color:#999}
+
+.ui-calendar li.state-hover{ background:#e7ecef;color:#369ad8}
+.ui-calendar li.state-active{ background:#e7ecef;color:#369ad8}
+
+.ui-calendar li.other-month{ cursor:default; color:#999}
+.ui-calendar .state-disabled{ opacity:.35; filter: Alpha(Opacity=35); cursor:default; color:#333; cursor:default}
+
+
