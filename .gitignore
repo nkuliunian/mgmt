@@ -13,3 +13,13 @@ hs_err_pid*
 
 #过滤文件夹
 core/
+.metadata/
+logs/
+mgmt/
+mgmt2/
+mobile/
+public/
+public2/
+RemoteSystemsTempFiles/
+Servers/
+webmgmt2/target/
