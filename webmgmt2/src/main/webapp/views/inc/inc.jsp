@@ -19,7 +19,7 @@ var environment = {
 <script src="${basePath}/resources/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="${basePath}/resources/js/global-1.1.0.min.js" type="text/javascript"></script>
 <script src="${basePath}/resources/js/loanMng.js" type="text/javascript"></script>
-<script src="${basePath}/resources/js/pagination.js" type="text/javascript"></script>
+<!-- <script src="${basePath}/resources/js/pagination.js" type="text/javascript"></script> -->
 <link rel="shortcut icon" href="${basePath}/resources/img/common/favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="${basePath}/resources/img/common/favicon.ico" type="image/vnd.microsoft.icon">
 <script type="text/javascript">

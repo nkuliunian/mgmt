@@ -21,8 +21,8 @@ public class BaseAction extends ActionSupport implements ServletRequestAware,Ser
 	 */
 	private static final long serialVersionUID = 8630050642476432253L;
 	
-	private static HttpServletRequest request;
-	private static HttpServletResponse response;
+	public HttpServletRequest request;
+	public HttpServletResponse response;
 	
 	private static Logger logger = LoggerFactory.getLogger(BaseAction.class);
 	protected static String clientTip;

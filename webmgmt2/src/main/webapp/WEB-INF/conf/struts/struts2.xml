@@ -9,5 +9,9 @@
 	<package name="sysadmin" namespace="/" extends="struts-default">
         <action name="login" class="com.mgmt.action.sysAdmin.SysUserAction" method="login">
         </action>
+        
+        <action name="index" class="com.mgmt.action.sysAdmin.SysUserAction" method="index">
+        	<result>/views/sysAdmin/index.jsp</result>
+        </action>
     </package>
 </struts>

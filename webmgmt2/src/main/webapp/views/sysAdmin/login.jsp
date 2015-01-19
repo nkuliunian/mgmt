@@ -58,7 +58,7 @@ function ajaxLogin() {
 	//异步请求
 	$ajax({
 		type: 'POST',
-		url: environment.basePath + "/sysadmin/user/doLogin.do",
+		url: environment.basePath + "/login.do",
 		data: {"nickName": nickName, "password": password},
 		success: function(data) {
 			//错误等信息提示
@@ -68,7 +68,7 @@ function ajaxLogin() {
 				return false;
 			}
 			//登录成功，跳转主页
-			window.location.href = environment.basePath + "/sysadmin/user/index.do";
+			window.location.href = environment.basePath + "/index.do";
 		}
 	});//End...$ajax
 }

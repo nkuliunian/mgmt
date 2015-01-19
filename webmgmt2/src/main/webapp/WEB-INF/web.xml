@@ -23,7 +23,7 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-    		/WEB-INF/conf/applicationContext/ApplicationContext.xml
+    		/WEB-INF/conf/applicationContext/applicationContext.xml
     	</param-value>
 	</context-param>
 	<!-- 添加 Spring 监听 -->
